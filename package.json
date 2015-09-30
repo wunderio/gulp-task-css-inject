@@ -1,0 +1,20 @@
+{
+  "name": "gulp-task-css-inject",
+  "version": "0.0.1",
+  "description": "A gulp task which injects all your compiled css files into your Drupal 8 theme.libraries.css",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wunderkraut/gulp-task-css-inject"
+  },
+  "bugs": {
+    "url": "https://github.com/wunderkraut/gulp-task-css-inject/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "lodash.defaultsdeep": "^3.10.0",
+    "path": "^0.12.7"
+  },
+  "license": "MIT"
+}
