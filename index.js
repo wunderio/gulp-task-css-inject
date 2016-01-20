@@ -3,7 +3,6 @@
 var path = require('path');
 var defaultsDeep = require('lodash.defaultsdeep');
 var inject = require('gulp-inject');
-var watch = require('gulp-watch');
 
 module.exports = function (gulp, gulpConfig) {
 
