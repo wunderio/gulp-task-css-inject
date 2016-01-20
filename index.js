@@ -3,6 +3,7 @@
 var path = require('path');
 var defaultsDeep = require('lodash.defaultsdeep');
 var inject = require('gulp-inject');
+var watch = require('gulp-watch');
 
 module.exports = function (gulp, gulpConfig) {
 
@@ -32,5 +33,9 @@ module.exports = function (gulp, gulpConfig) {
           }
         }, {name: 'css-components'}))
       .pipe(gulp.dest('./'));
+  });
+  // Default watch task.
+  gulp.task('css-inject-watch', ['css-inject'], function () {
+    gulp.watch(path.join(gulpConfig.basePath, config.src), ['css-inject'])
   });
 };

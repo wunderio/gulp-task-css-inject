@@ -1,6 +1,6 @@
 {
   "name": "gulp-task-css-inject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gulp task which injects all your compiled css files into your Drupal 8 theme.libraries.css",
   "main": "index.js",
   "repository": {
